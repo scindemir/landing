@@ -25,13 +25,13 @@
     background-image: url('./backgr.jpg');
     background-size: cover;
     height: 100%;
-    color: #222731 !IMPORTANT;
+    color: #6590bf !IMPORTANT;
     text-align: right;
 }
 
 #appName {
     font-size: 72px;
-    background: -webkit-linear-gradient(#f56129, #007bff);
+    background: -webkit-linear-gradient(#000000, #007bff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
