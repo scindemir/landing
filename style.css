@@ -31,7 +31,7 @@
 
 #appName {
     font-size: 72px;
-    background: -webkit-linear-gradient(#000000, #007bff);
+    background: -webkit-linear-gradient(#f56129, #007bff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
