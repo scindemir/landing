@@ -10,126 +10,134 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <title>App landing page</title>
-  </head>
+   </head>
     
 <body>
       
-<nav id="myNavbar" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-  <a class="navbar-brand" href="#">
-     <img src="./logo.png" width="30" height="30" alt="" loading="lazy">
-      MyApp</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <nav id="myNavbar" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <a class="navbar-brand" href="#">
+         <img src="./logo.png" width="30" height="30" alt="" loading="lazy"> MyApp</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#download">Download the App</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="email" placeholder="E-mail" aria-label="email">
-        <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="password">
-      <button class="btn btn-primary my-2 my-sm-0" type="submit">Login</button>
-    </form>
-  </div>
-</nav>
- 
-<div data-spy="myScrollSpy" data-target="#myNavbar" data-offset="90">    
-    <div class="jumbotron" id="home">
-        <h1 class="display-4" id="appName"><b>My Great App</b></h1>
-        <p class="lead">saves your thoughts</p>
-        <hr class="my-4">
-        <p id="whi">Want to know more? Join our mailing list!</p>
-      
-      <form>
-      <div class="form-row d-flex justify-content-end">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#download">Download the App</a>
+          </li>
+        </ul>
+          
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="email" placeholder="E-mail" aria-label="email">
+          <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="password">
+          <button class="btn btn-primary my-2 my-sm-0" type="submit">Login</button>
+        </form>
+      </div>
+    </nav>
 
-            <div class="col-sm-3 my-1">
-
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <div class="input-group-text">@</div>
-                </div>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@mail.com">
+    <div data-spy="myScrollSpy" data-target="#myNavbar" data-offset="90">    
+        <div class="jumbotron" id="home">
+            <h1 class="display-4" id="appName"><b>My Great App</b></h1>
+            <p id="saves" class="lead">saves your thoughts</p>
+            <hr class="my-4">
+            <p id="whi">Want to know more? Join our mailing list!</p>
+            
+            <form>
+              <div class="form-row d-flex justify-content-center">
+                    <div class="col-sm-3 my-1">
+                      <div class="input-group">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text">&#10132;</div>
+                        </div>
+                          
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email@mail.com">
+                      </div>
+                    </div>
+                    <div class="col-auto my-1">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
               </div>
-            </div>
-            <div class="col-auto my-1">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-      </div>
-    </form>
-</div>
-    
-    <div class="container">
-    <div id="about">
-    <h1 class="mainH">Why This App Is Awesome</h1><br>
-    <p class="mainHl">This App helps you to follow all your tasks on time. Many cases were won thanking to the accurate timing. This app will free your mind for more important tasks than memorizing the dates</p> <br><br></div>
-    
-      
-    <div class="container">
-    <div class="card-deck-wrapper"> 
-    <div class="card-deck">
-      <div class="col d-flex justify-content-center">    
-      <div class="card" style="width: 18rem;">
-      <img src="https://scontent.fsaw2-2.fna.fbcdn.net/v/t1.0-9/s960x960/116683680_1493032661084418_8633732276675297405_o.jpg?_nc_cat=105&_nc_sid=8024bb&_nc_ohc=fS8J55aAXT0AX_19RKO&_nc_ht=scontent.fsaw2-2.fna&tp=7&oh=ef17500d89aee1ad46b7326473dca193&oe=5F72FA12" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      </div></div>    
-        
-      <div class="col d-flex justify-content-center">   
-      <div class="card" style="width: 18rem;">
-      <img src="https://scontent.fsaw2-1.fna.fbcdn.net/v/t1.0-9/s960x960/118291102_1510375592683458_784695646571927296_o.jpg?_nc_cat=108&_nc_sid=8024bb&_nc_ohc=vsNRPw5iZy8AX8MdvMF&_nc_ht=scontent.fsaw2-1.fna&tp=7&oh=44650feacc9e08650f235b35a420a214&oe=5F72CAAD" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-      </div></div>
-        
-      <div class="col d-flex justify-content-center">   
-      <div class="card" style="width: 18rem;">
-      <img src="https://scontent.fsaw2-2.fna.fbcdn.net/v/t1.0-9/s960x960/118297433_1510381676016183_3859315683076359174_o.jpg?_nc_cat=105&_nc_sid=8024bb&_nc_ohc=ssZqg1UtwisAX92ksRs&_nc_ht=scontent.fsaw2-2.fna&tp=7&oh=759e7e3c67e6f0f7adcf49add2d36bfc&oe=5F73334F" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-        
-      </div></div></div></div>
-      </div></div>
- 
-  
-     <div id="download" class="container">
-        <div class="container">
-          <div id="about">
-          <h1 class="mainH">Download The App!</h1><br>
-          <br></div>
-           <div class="col d-flex align-items-center justify-content-center flex-wrap">  
-              <a href=""><img src="./apple.png"></a>
-              <a href=""><img src="./google.png"></a>
-              </div>
+            </form>
         </div>
-    </div>
-      
 
-   
-    
-    
-    <script src="./script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-      
-    <script type="text/javascript">
-   $('body').scrollspy({ target: '#myNavbar' })
-      
-  
+        <div class="container">
+        <div id="about">
+        <h1 class="mainH">Why This App Is Awesome</h1><br>
+        <p class="mainHl">This App helps you to follow all your tasks on time. Many cases were won thanking to the accurate timing. This app will free your mind for more important tasks than memorizing the dates</p><br><br>
+        </div>
+
+
+        <div class="container">
+        <div class="card-deck-wrapper"> 
+        <div class="card-deck">
+          <div class="col d-flex justify-content-center">    
+              <div class="card" style="width: 18rem;">
+              <img src="./logo.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+              </div>
+        </div>    
+
+          <div class="col d-flex justify-content-center">   
+              <div class="card" style="width: 18rem;">
+              <img src="./2.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col d-flex justify-content-center">   
+              <div class="card" style="width: 18rem;">
+              <img src="./1.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+              </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        <div id="download" class="container">
+            <div class="container">
+                <div id="about">
+                    <h1 class="mainH">Download The App!</h1>
+                       <div class="mainHl">and never miss an opportunity</div>
+                   <br>
+                   <br>
+                </div>
+             <div class="col d-flex align-items-center justify-content-center flex-wrap">  
+                <a href=""><img class="but" src="./apple.png"></a>
+                <a href=""><img class="but" src="./google.png"></a>
+             </div>
+            </div>
+        </div>
+
+
+
+
+        <script src="./script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        <script type="text/javascript">
+       $('body').scrollspy({ target: '#myNavbar' })
+
+
+
+        </script>
         
-      </script>
-  </body>
+</body>
 </html>
